@@ -10,4 +10,11 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+   <ItemGroup>
+    <ProjectReference Include="..\University.Core\University.Core.csproj" />
+    <ProjectReference Include="..\University.Infrastructure\University.Infrastructure.csproj" />
+    <ProjectReference Include="..\University.Shared\University.Shared.csproj" />
+    <ProjectReference Include="..\University.Model\University.Model.csproj" />
+  </ItemGroup>
+
 </Project>
